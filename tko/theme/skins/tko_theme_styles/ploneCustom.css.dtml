@@ -1,0 +1,78 @@
+/*
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+body {
+    background: #313747 url('&dtml-portal_url;/bodybg.gif') repeat;
+}
+
+#visual-portal-wrapper {
+    width: 930px;
+    margin: 0 auto;
+}
+
+#portal-columns {
+    border: 10px solid #222530;
+    background-color: #ffffff;
+}
+
+#portal-column-content {
+    padding: 1em;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+/* navigation */
+#portal-globalnav {
+    background-color: transparent;
+    text-align: right;
+    width: 675px;
+    float: right;
+    margin-top: 25px;
+}
+
+#portal-globalnav a {
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: &dtml-neutralColor;;
+}
+
+#portal-globalnav .selected a,
+#portal-globalnav a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: &dtml-neutralColor;;
+}
+
+/* footer */
+#portal-colophon {
+    margin-top: 1em;
+}
+
+#portal-colophon a,
+#portal-siteactions a {
+    color: &dtml-neutralColor;;
+}
+
+/* portlets */
+.portlet,
+.portletStaticText {
+    background-color: &dtml-neutralColor;;
+    margin: 0;
+}
+
+.portlet .portletHeader,
+.portlet .portletHeader a {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #9097A9;
+}
+
+
+/* </dtml-with> */
+

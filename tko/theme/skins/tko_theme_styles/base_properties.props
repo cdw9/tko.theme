@@ -1,0 +1,52 @@
+title:string=TKO Theme's color, font, logo and border defaults
+
+plone_skin:string=TKO Theme
+
+logoName:string=logo.png
+
+fontFamily:string=Verdana, Arial, sans-serif
+fontBaseSize:string=12px
+fontColor:string=#444955
+fontSmallSize:string=10px
+
+backgroundColor:string=#ffffff
+primaryColor:string=#1C8CB5
+neutralColor:string=#EEF0F5
+
+linkColor:string=#1C8CB5
+linkHoverColor:string=#1C8CB5
+linkActiveColor:string=#1C8CB5
+linkVisitedColor:string=#1C8CB5
+
+borderWidth:string=1px
+borderStyle:string=solid
+borderStyleAnnotations:string=dashed
+
+globalBorderColor:string=#205C90
+globalBackgroundColor:string=#eeeeee
+globalFontColor:string=#333333
+
+headingFontFamily:string=Verdana, Arial, sans-serif
+headingColor:string=#1C8CB5
+
+contentViewBorderColor:string=#75AD0A
+contentViewBackgroundColor:string=#75AD0A
+contentViewFontColor:string=#ffffff
+
+inputFontColor:string=#000000
+
+textTransform:string=none
+
+highlightColor:string=#ffffe0
+
+evenRowBackgroundColor:string=#eeeeee
+oddRowBackgroundColor:string=transparent
+
+notifyBorderColor:string=#9C6E3D
+notifyBackgroundColor:string=#ffffe3
+
+discreetColor:string=#76797c
+helpBackgroundColor:string=#ffffe1
+
+columnOneWidth:string=25%
+columnTwoWidth:string=265px

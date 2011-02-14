@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="tko.theme">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="TKO Theme"
+      directory="profiles/default"
+      description='Extension profile for the "TKO Theme" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="tko.theme.various"
+      title="TKO Theme: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="tko.theme.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+</configure>
